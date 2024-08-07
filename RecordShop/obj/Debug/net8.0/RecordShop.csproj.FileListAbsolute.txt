@@ -1,0 +1,6 @@
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.csproj.AssemblyReference.cache
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.AssemblyInfoInputs.cache
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.AssemblyInfo.cs
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.csproj.CoreCompileInputs.cache
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\obj\Debug\net8.0\RecordShop.MvcApplicationPartsAssemblyInfo.cache

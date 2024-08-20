@@ -1,3 +1,6 @@
+using Application.Repositories;
+using Application.Services;
+using Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,9 +10,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IAlbumService, AlbumService>();
+builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();//esto probablemente no debería hacerse asi, terminé haciendo que la capa de presentación referencie a la capa de infraestructura pero solo para poder añadir este scope y no para otra cosa, tendremos que preguntarle al profe como hacer esto más adelante
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

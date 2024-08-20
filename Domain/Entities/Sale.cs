@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    internal class Sale
+    public class Sale
     {
         public int Id { get; set; }
         public List<Album> Products { get; set; }

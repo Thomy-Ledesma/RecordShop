@@ -16,3 +16,5 @@ C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\obj\Debu
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache

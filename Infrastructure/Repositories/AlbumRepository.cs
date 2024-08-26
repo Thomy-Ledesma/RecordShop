@@ -1,5 +1,6 @@
-﻿using Application.Repositories;
-using Domain.Entities;
+﻿using Domain.Entities;
+using Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,14 @@ namespace Infrastructure
 {
     public class AlbumRepository : IAlbumRepository
     {
+
+        private readonly ApplicationContext _context;
+        public AlbumRepository(ApplicationContext context)
+        {
+            _context = context;
+        }
+
+
         public static List<Album> albums = new List<Album>() {
 
         new Album {Id = 1, Name = "mimimi", Band = "avril lavinge", Genre = "pop", Amount = 7, Price = 23}
@@ -17,7 +26,8 @@ namespace Infrastructure
 
     public List<Album> GetAllAlbums()
         {
-            return albums;
+            return _context.Albums
+                .ToList();
         }
     }
 }

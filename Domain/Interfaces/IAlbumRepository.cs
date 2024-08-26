@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Repositories
+namespace Domain.Interfaces
 {
     public interface IAlbumRepository
     {
         List<Album> GetAllAlbums();
     }
 }
+

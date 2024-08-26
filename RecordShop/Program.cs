@@ -1,6 +1,8 @@
-using Application.Repositories;
+
 using Application.Services;
+using Domain.Interfaces;
 using Infrastructure;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,10 +10,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddDbContext<ApplicationContext>(dbContextOptions => dbContextOptions.UseSqlite(
+builder.Configuration["ConnectionStrings:TechnoMarketDBConnectionString"], b => b.MigrationsAssembly("RecordShop")));
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IAlbumService, AlbumService>();
-builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();//esto probablemente no debería hacerse asi, terminé haciendo que la capa de presentación referencie a la capa de infraestructura pero solo para poder añadir este scope y no para otra cosa, tendremos que preguntarle al profe como hacer esto más adelante
+builder.Services.AddScoped<IAlbumRepository, AlbumRepository>();
 
 var app = builder.Build();
 

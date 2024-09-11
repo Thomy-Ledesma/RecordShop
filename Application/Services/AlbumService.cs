@@ -21,5 +21,23 @@ namespace Application.Services
             var albums = _albumRepository.GetAllAlbums();
             return albums;
         }
+
+        public string AddAlbum(Album album)
+        {
+            var album1 = new Album()
+            {
+                Id = album.Id,
+                Name = album.Name,
+                Band = album.Band,
+                Genre = album.Genre,
+                Amount = album.Amount,
+                Price = album.Price,
+
+            };
+            
+            return _albumRepository.AddAlbum(album1);
+
+
+        }
     }
 }

@@ -10,5 +10,7 @@ namespace Application.Services
     public interface IAlbumService
     {
         List<Album> GetAllAlbums();
+
+        string AddAlbum(Album album);
     }
 }

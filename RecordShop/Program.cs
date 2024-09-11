@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddDbContext<ApplicationContext>(dbContextOptions => dbContextOptions.UseSqlite(
-builder.Configuration["ConnectionStrings:TechnoMarketDBConnectionString"], b => b.MigrationsAssembly("RecordShop")));
+builder.Configuration["ConnectionStrings:RecordShopDBConnectionString"], b => b.MigrationsAssembly("RecordShop")));
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IAlbumService, AlbumService>();

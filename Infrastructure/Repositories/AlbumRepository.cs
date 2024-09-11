@@ -19,15 +19,17 @@ namespace Infrastructure
         }
 
 
-        public static List<Album> albums = new List<Album>() {
-
-        new Album {Id = 1, Name = "mimimi", Band = "avril lavinge", Genre = "pop", Amount = 7, Price = 23}
-        };
-
-    public List<Album> GetAllAlbums()
+        public List<Album> GetAllAlbums()
         {
             return _context.Albums
                 .ToList();
+        }
+
+        public string AddAlbum(Album album)
+        {
+            _context.Albums.Add(album);
+           
+            return album.Name;
         }
     }
 }

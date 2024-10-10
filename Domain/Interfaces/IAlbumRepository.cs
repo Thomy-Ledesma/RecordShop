@@ -9,8 +9,9 @@ namespace Domain.Interfaces
 {
     public interface IAlbumRepository
     {
-        List<Album> GetAllAlbums();
-        string AddAlbum(Album album);
+        List<Album> GetAll();
+
+        Album Get(string name);
     }
 }
 

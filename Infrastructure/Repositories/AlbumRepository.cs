@@ -11,25 +11,19 @@ namespace Infrastructure
 {
     public class AlbumRepository : IAlbumRepository
     {
-
         private readonly ApplicationContext _context;
         public AlbumRepository(ApplicationContext context)
         {
             _context = context;
         }
 
-
-        public List<Album> GetAllAlbums()
+        public Album Get(string name)
         {
-            return _context.Albums
-                .ToList();
+            return _context.Albums.First(a => a.Name == name);
         }
-
-        public string AddAlbum(Album album)
+        public List<Album> GetAll()
         {
-            _context.Albums.Add(album);
-           
-            return album.Name;
+            return _context.Albums.ToList();
         }
     }
 }

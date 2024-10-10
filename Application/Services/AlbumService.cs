@@ -16,28 +16,20 @@ namespace Application.Services
         {
             _albumRepository = albumRepository;
         }
-        public List<Album> GetAllAlbums()
+        public List<Album> GetAll()
         {
-            var albums = _albumRepository.GetAllAlbums();
+            var albums = _albumRepository.GetAll();
             return albums;
         }
-
-        public string AddAlbum(Album album)
+        
+        public Album Get(string name)
         {
-            var album1 = new Album()
-            {
-                Id = album.Id,
-                Name = album.Name,
-                Band = album.Band,
-                Genre = album.Genre,
-                Amount = album.Amount,
-                Price = album.Price,
-
-            };
-            
-            return _albumRepository.AddAlbum(album1);
-
-
+            return _albumRepository.Get(name);
         }
+
+        /*public string Add(Album album)
+        {
+            return _albumRepository.Add(album);
+        }*/
     }
 }

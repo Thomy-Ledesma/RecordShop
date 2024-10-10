@@ -5,7 +5,7 @@
 namespace RecordShop.Migrations
 {
     /// <inheritdoc />
-    public partial class InitiaMigration : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -31,7 +31,6 @@ namespace RecordShop.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    AdminId = table.Column<int>(type: "INTEGER", nullable: true),
                     Username = table.Column<string>(type: "TEXT", nullable: false),
                     Password = table.Column<string>(type: "TEXT", nullable: false),
                     Email = table.Column<string>(type: "TEXT", nullable: false)
@@ -39,11 +38,6 @@ namespace RecordShop.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Customers", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Customers_Admins_AdminId",
-                        column: x => x.AdminId,
-                        principalTable: "Admins",
-                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -96,11 +90,6 @@ namespace RecordShop.Migrations
                 column: "SaleId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Customers_AdminId",
-                table: "Customers",
-                column: "AdminId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Sales_CustomerId",
                 table: "Sales",
                 column: "CustomerId");
@@ -110,6 +99,9 @@ namespace RecordShop.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Admins");
+
+            migrationBuilder.DropTable(
                 name: "Albums");
 
             migrationBuilder.DropTable(
@@ -117,9 +109,6 @@ namespace RecordShop.Migrations
 
             migrationBuilder.DropTable(
                 name: "Customers");
-
-            migrationBuilder.DropTable(
-                name: "Admins");
         }
     }
 }

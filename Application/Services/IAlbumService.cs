@@ -9,8 +9,8 @@ namespace Application.Services
 {   //use case
     public interface IAlbumService
     {
-        List<Album> GetAllAlbums();
+        List<Album> GetAll();
 
-        string AddAlbum(Album album);
+        Album Get(string name);
     }
 }

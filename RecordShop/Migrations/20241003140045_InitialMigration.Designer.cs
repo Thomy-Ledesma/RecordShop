@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace RecordShop.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240910234236_InitiaMigration")]
-    partial class InitiaMigration
+    [Migration("20241003140045_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -83,9 +83,6 @@ namespace RecordShop.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("AdminId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -99,8 +96,6 @@ namespace RecordShop.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AdminId");
 
                     b.ToTable("Customers");
                 });
@@ -134,13 +129,6 @@ namespace RecordShop.Migrations
                         .HasForeignKey("SaleId");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Customer", b =>
-                {
-                    b.HasOne("Domain.Entities.Admin", null)
-                        .WithMany("Customers")
-                        .HasForeignKey("AdminId");
-                });
-
             modelBuilder.Entity("Domain.Entities.Sale", b =>
                 {
                     b.HasOne("Domain.Entities.Customer", null)
@@ -148,11 +136,6 @@ namespace RecordShop.Migrations
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Domain.Entities.Admin", b =>
-                {
-                    b.Navigation("Customers");
                 });
 
             modelBuilder.Entity("Domain.Entities.Customer", b =>

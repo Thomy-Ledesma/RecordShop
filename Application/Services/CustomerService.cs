@@ -56,5 +56,10 @@ namespace Application.Services
             await _customerRepository.DeleteAsync(customer);
 
         }
+
+        public CustomerModel? CheckCredentials(CredentialsRequest credentials)
+        {
+            Get
+        }
     }
 }

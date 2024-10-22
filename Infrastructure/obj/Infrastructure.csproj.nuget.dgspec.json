@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\Application.csproj": {
+    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\Domain.csproj"
+              "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\Domain.csproj": {
+    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +152,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Application\\Application.csproj"
+              "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj"
               }
             }
           }

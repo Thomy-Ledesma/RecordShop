@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "43v80VsHM/fkAVOpy0UFPWhfKfni3dAezneC3B3y/gwp09PTGhGA3RFBvi6meGQ+5TiqmMU6/Sby+4RTOpFKog==",
+  "dgSpecHash": "fLbtgljb9C+m8WYXHVrrUao2FB8Yl7vA4w1KbQfon6l8JZDGbyjFVS7/tcEujNxMXTPx/9TP70WLp184NrN6SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\recordshop backup\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Operador\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Operador\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

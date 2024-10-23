@@ -2,11 +2,13 @@
 using Application.Services;
 using Domain.Entities;
 using Application.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class RecordShopCustomers : ControllerBase
     {
         private readonly ICustomerService _customerService;

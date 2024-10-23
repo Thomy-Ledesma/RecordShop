@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Application.DTOs;
+using Domain.Entities;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,12 @@ namespace Infrastructure.Repositories
         public Customer? GetByName(string name)
         {
             return _context.Customers.FirstOrDefault(c => c.Username == name);
+        }
+        public Customer? Authenticate(string username, string password)
+        {
+            Customer? userToAuthenticate = _context.Customers.FirstOrDefault(u => u.Username == username && u.Password == password);
+            return userToAuthenticate;
+
         }
 
     }

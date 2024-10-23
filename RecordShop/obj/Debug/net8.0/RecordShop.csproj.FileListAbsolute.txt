@@ -46,7 +46,6 @@ C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\ne
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
@@ -271,3 +270,18 @@ C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\ne
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Operador\Desktop\facu\Programacion-3\RecordShop\RecordShop\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

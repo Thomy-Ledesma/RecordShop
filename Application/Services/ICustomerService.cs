@@ -15,5 +15,6 @@ namespace Application.Services
         Task<Customer> AddCustomer(AddCustomerRequest dto);
         Task UpdateCustomer(int id, AddCustomerRequest request);
         Task DeleteCustomer(Customer customer);
+        Customer Authenticate(CredentialsRequest credentials);
     }
 }

@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class AlbumRepository : IAlbumRepository
+    public class AlbumRepository : EfRepository<Album>, IAlbumRepository
     {
         private readonly ApplicationContext _context;
-        public AlbumRepository(ApplicationContext context)
+        public AlbumRepository(ApplicationContext context) : base(context)
         {
             _context = context;
         }

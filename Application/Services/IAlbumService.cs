@@ -1,16 +1,14 @@
-﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.DTOs;
+using Domain.Entities;
 
 namespace Application.Services
 {   //use case
     public interface IAlbumService
     {
-        List<Album> GetAll();
-
-        Album Get(string name);
+        Task<List<Album>> GetAllAlbumsAsync();
+        Task<Album?> GetAlbumById(int id);
+        Task<Album> AddAlbum(AddAlbumRequest dto);
+        Task<Album> UpdateAlbum(int id, AddAlbumRequest request);
+        Task<string> DeleteAlbum(Album album);
     }
 }

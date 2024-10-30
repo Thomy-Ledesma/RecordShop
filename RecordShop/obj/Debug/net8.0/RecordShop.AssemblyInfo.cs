@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecordShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb1f532ddfa401beac473d6f2ebb09e83640e441")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad39be6a988dc7aad5ca3ce6196d1896962ef4ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecordShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecordShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

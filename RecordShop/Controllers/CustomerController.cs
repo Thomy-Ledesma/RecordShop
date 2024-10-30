@@ -24,7 +24,7 @@ namespace RecordShop.Controllers
             return Ok(customers);
         }
 
-        [HttpGet("GetByID")]
+        [HttpGet("{Id}")]
 
         public async Task<IActionResult> GetCustomerById(int Id)
         {
@@ -45,7 +45,7 @@ namespace RecordShop.Controllers
         }
 
         [HttpPut("UpdateCustomer")]
-        public async Task<IActionResult> UpdateCustomer(int id, [FromBody] AddCustomerRequest request)
+        public async Task<IActionResult> UpdateCustomer(int  id, [FromBody] AddCustomerRequest request)
         {
             var customer = await _customerService.GetCustomerById(id);
             if (customer == null)

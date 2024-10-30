@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IAlbumRepository
-    {
-        List<Album> GetAll();
-
-        Album Get(string name);
+    public interface IAlbumRepository : IRepositoryBase<Album>
+    { 
     }
 }
 

@@ -8,7 +8,7 @@ namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize] despues
     public class RecordShopCustomers : ControllerBase
     {
         private readonly ICustomerService _customerService;

@@ -1,5 +1,4 @@
 ﻿using Application.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RecordShop.Controllers
@@ -9,45 +8,55 @@ namespace RecordShop.Controllers
     public class SalesController : ControllerBase
     {
         private readonly ISalesService _salesService;
-        private readonly ICustomerService _customerService;
         private readonly IAlbumService _albumService;
 
-        public SalesController(ISalesService salesService, ICustomerService customerService, IAlbumService albumService)
+        public SalesController(ISalesService salesService, IAlbumService albumService)
         {
             _salesService = salesService;
-            _customerService = customerService;
             _albumService = albumService;
         }
 
+        // Endpoint to create a sale for a specific customer
         [HttpPost("OpenSale")]
-
-        public IActionResult OpenSale(int userId)
+        public async Task<IActionResult> OpenSale(int customerId)
         {
-            _salesService.CreateSale(userId);
-            return Ok("sale created!");
+            var sale = await _salesService.CreateSale(customerId);
+            return Ok(new { message = "Sale created!", saleId = sale.Id });
         }
 
-        [HttpGet("GetAllSales")]
-
-        public async Task<IActionResult> GetAllSales()
-        {
-            var sales = await _salesService.GetAllSales();
-            return Ok(sales);
-        }
-
+        // Endpoint to add an album to a sale with quantity
         [HttpPut("AddToCart")]
-
-        public async Task<IActionResult> AddToCart(int saleId, int albumId)
+        public async Task<IActionResult> AddToCart(int saleId, int albumId, int quantity)
         {
             var album = await _albumService.GetAlbumById(albumId);
             if (album == null)
-            {
                 return NotFound("Album not found");
-            }
 
-            await _salesService.AddAlbum(album, saleId);
+            await _salesService.AddAlbumToSale(saleId, albumId, quantity);
+            return Ok("Album added to sale with quantity updated.");
+        }
 
-            return Ok("Album updated");
+        // Endpoint to get all sales with albums and their quantities
+        [HttpGet("GetAllSales")]
+        public async Task<IActionResult> GetAllSales()
+        {
+            var sales = await _salesService.GetAllSales();
+            var result = sales.Select(sale => new
+            {
+                sale.Id,
+                sale.CustomerId,
+                sale.Total,
+                sale.SaleState,
+                Albums = sale.SaleAlbums.Select(sa => new
+                {
+                    sa.Album.Id,
+                    sa.Album.Name,
+                    sa.Album.Price,
+                    sa.Quantity
+                })
+            });
+
+            return Ok(result);
         }
     }
 }

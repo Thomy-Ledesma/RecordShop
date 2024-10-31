@@ -13,10 +13,18 @@ namespace Domain.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Band { get; set; } = string.Empty;
-        public string Genre { get; set; } = string.Empty;
-        public int Amount { get; set; }
+        [Required]
+        [StringLength(30)]
+        public string Name { get; set; }
+        [Required]
+        [StringLength(30)]
+        public string Band { get; set; }
+        [Required]
+        [StringLength(30)]
+        public string Genre { get; set; }
+        public int Amount { get; set; } = 0;
+        [Required]
         public float Price { get; set; }
+        public List<SaleAlbum> SaleAlbums { get; set; } = new List<SaleAlbum>();
     }
 }

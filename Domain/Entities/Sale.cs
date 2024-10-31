@@ -8,22 +8,23 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Sale
-    {
-            [Key]
-            [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-            public int Id { get; set; }
-            public List<Album> Products { get; set; } = new List<Album>();
-
-            public int CustomerId { get; set; }
-            public State SaleState { get; set; } = State.InProcess;
-            public float Total { get; set; }
-        }
-    }
 
     public enum State
     {
         InProcess,
         Done,
+    }
+    public class Sale
+    {
+            [Key]
+            [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+            public int Id { get; set; }
+
+            public int CustomerId { get; set; }
+            public State SaleState { get; set; } = State.InProcess;
+            public float Total { get; set; }
+
+            public List<SaleAlbum> SaleAlbums { get; set; } = new List<SaleAlbum>();
+    }
     }
 

@@ -20,6 +20,20 @@ namespace Infrastructure
         {
             this.isTestingEnvironment = isTestingEnvironment;
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<SaleAlbum>()
+                .HasKey(sa => new { sa.SaleId, sa.AlbumId });
 
+            modelBuilder.Entity<SaleAlbum>()
+                .HasOne(sa => sa.Sale)
+                .WithMany(s => s.SaleAlbums)
+                .HasForeignKey(sa => sa.SaleId);
+
+            modelBuilder.Entity<SaleAlbum>()
+                .HasOne(sa => sa.Album)
+                .WithMany(a => a.SaleAlbums)
+                .HasForeignKey(sa => sa.AlbumId);
+        }
     }
 }

@@ -12,44 +12,60 @@ namespace Application.Services
     public class SalesService : ISalesService
     {
         private readonly ISalesRepository _salesRepository;
+        private readonly IAlbumRepository _albumRepository;
 
-        public SalesService(ISalesRepository salesRepository)
+        public SalesService(ISalesRepository salesRepository, IAlbumRepository albumRepository)
         {
             _salesRepository = salesRepository;
+            _albumRepository = albumRepository;
         }
-
         public async Task<List<Sale>> GetAllSales()
         {
-            return await _salesRepository.ListAsync(); // Generic method from EfRepository
+            return await _salesRepository.ListWithProductsAsync();
         }
 
         public async Task<Sale?> GetSaleById(int id)
         {
             return await _salesRepository.GetByIdAsync(id);
         }
+
         public async Task<Sale> CreateSale(int customerId)
         {
             var sale = new Sale
             {
                 CustomerId = customerId,
+                Total = 0,
             };
-            return await _salesRepository.AddAsync(sale);
+
+            return await _salesRepository.AddAsync(sale); // Persist the new sale
         }
 
-        public async Task<Sale?> AddAlbum(Album album, int id)
-        { 
-            var saleToUpdate = await _salesRepository.GetByIdAsync(id);
+        public async Task<Sale> AddAlbumToSale(int saleId, int albumId, int quantity = 1)
+        {
+            var sale = await _salesRepository.GetByIdAsync(saleId);
+            if (sale == null) throw new Exception("Sale not found");
 
-            if (saleToUpdate == null)
-            { 
-                return null; //ver que hacer en caso de exepción
+            var album = await _albumRepository.GetByIdAsync(albumId);
+            if (album == null) throw new Exception("Album not found");
+
+            var saleAlbum = sale.SaleAlbums.FirstOrDefault(sa => sa.AlbumId == albumId);
+            if (saleAlbum != null)
+            {
+                saleAlbum.Quantity += quantity;
+            }
+            else
+            {
+                sale.SaleAlbums.Add(new SaleAlbum
+                {
+                    SaleId = saleId,
+                    AlbumId = albumId,
+                    Quantity = quantity
+                });
             }
 
-            saleToUpdate.Products.Add(album);
-
-            await _salesRepository.UpdateAsync(saleToUpdate);
-
-            return saleToUpdate;
+            sale.Total += album.Price * quantity;
+            await _salesRepository.UpdateAsync(sale);
+            return sale;
         }
     }
     

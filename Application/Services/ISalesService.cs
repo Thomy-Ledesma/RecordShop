@@ -12,6 +12,6 @@ namespace Application.Services
         Task<Sale> CreateSale(int customerId);
         Task<List<Sale>> GetAllSales();
         Task<Sale?> GetSaleById(int id);
-        Task<Sale?> AddAlbum(Album album, int id);
+        Task<Sale?> AddAlbumToSale(int saleId, int albumId, int quantity);
     }
 }

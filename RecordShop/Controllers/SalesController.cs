@@ -57,36 +57,6 @@ namespace RecordShop.Controllers
             });
 
             return Ok(result);
-
-
         }
-        [HttpPut("ClosePurchase/{saleId}")]
-
-        public async Task<IActionResult> ClosePurchase(int saleId)
-        {
-            try
-            {
-                // Intenta cerrar la compra
-                var sale = await _salesService.ClosePurchase(saleId);
-
-                // Preparar la respuesta
-                var response = new
-                {
-                    Sale = sale,
-                    Message = "Purchase closed successfully, and album amounts updated."
-                };
-
-                return Ok(response);
-            }
-            catch (Exception ex)
-            {
-                // Imprimir el mensaje de error en la consola para depuración
-                Console.WriteLine($"Error: {ex.Message}");
-
-                return BadRequest(new { message = ex.Message });
-            }
-        }
-
-
     }
 }

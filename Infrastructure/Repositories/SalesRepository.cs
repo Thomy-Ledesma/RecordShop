@@ -22,8 +22,6 @@ namespace Infrastructure.Repositories
                 .Include(s => s.SaleAlbums)
                     .ThenInclude(sa => sa.Album)
                 .ToListAsync();
-        }
-
-        
+        }   
     }
 }

@@ -67,41 +67,6 @@ namespace Application.Services
             await _salesRepository.UpdateAsync(sale);
             return sale;
         }
-
-        public async Task<Sale> ClosePurchase(int saleId)
-        {
-            var sale = await _salesRepository.GetByIdAsync(saleId);
-            if (sale == null) throw new Exception("Sale not found");
-
-            
-            if (sale.SaleAlbums == null || !sale.SaleAlbums.Any())
-                throw new Exception("No albums in sale");
-
-           
-            if (sale.SaleState != State.InProcess)
-                throw new Exception("Sale is already closed or canceled");
-
-            
-            foreach (var saleAlbum in sale.SaleAlbums)
-            {
-                var album = await _albumRepository.GetByIdAsync(saleAlbum.AlbumId);
-                if (album == null) throw new Exception($"Album with ID {saleAlbum.AlbumId} not found");
-
-                if (album.Amount < saleAlbum.Quantity)
-                    throw new Exception($"Insufficient amount for album {album.Name}");
-
-                
-                album.Amount -= saleAlbum.Quantity;
-                await _albumRepository.UpdateAsync(album);
-            }
-
-           
-            sale.SaleState = State.Done;
-            await _salesRepository.UpdateAsync(sale); 
-
-            return sale;
-        }
-
     }
-
+    
 }

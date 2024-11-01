@@ -21,15 +21,3 @@ C:\Users\Operador\Desktop\facu\Programacion-3\recordshop backup\Domain\obj\Debug
 C:\Users\Operador\Desktop\facu\Programacion-3\recordshop backup\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Operador\Desktop\facu\Programacion-3\recordshop backup\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Operador\Desktop\facu\Programacion-3\recordshop backup\Domain\obj\Debug\net8.0\ref\Domain.dll
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\bin\Debug\net8.0\Domain.deps.json
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\bin\Debug\net8.0\Domain.dll
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\bin\Debug\net8.0\Domain.pdb
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.sourcelink.json
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.dll
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\refint\Domain.dll
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\Domain.pdb
-C:\Users\augus\Desktop\TPI_P3_Recursado\RecordShop\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj": {}
+    "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj": {
+    "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\obj\\",
+        "projectPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj"
+              "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Domain.csproj"
               }
             }
           }
@@ -68,17 +68,17 @@
         }
       }
     },
-    "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj": {
+    "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

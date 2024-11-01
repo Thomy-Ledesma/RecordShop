@@ -2739,19 +2739,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Operador\\.nuget\\packages\\": {}
+    "C:\\Users\\augus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Operador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\augus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Operador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\augus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2765,8 +2765,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Application.csproj"
+            "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Application.csproj"
             }
           }
         }

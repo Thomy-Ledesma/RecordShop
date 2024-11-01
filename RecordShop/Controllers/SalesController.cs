@@ -1,19 +1,19 @@
 ﻿using Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize(Policy = "AdminOnly")] // Only admins can add customers
     public class SalesController : ControllerBase
     {
         private readonly ISalesService _salesService;
-        private readonly IAlbumService _albumService;
 
-        public SalesController(ISalesService salesService, IAlbumService albumService)
+        public SalesController(ISalesService salesService)
         {
             _salesService = salesService;
-            _albumService = albumService;
         }
 
         // Endpoint to create a sale for a specific customer

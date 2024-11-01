@@ -5,15 +5,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Enums;
 
 namespace Domain.Entities
 {
 
-    public enum State
-    {
-        InProcess,
-        Done,
-    }
     public class Sale
     {
             [Key]

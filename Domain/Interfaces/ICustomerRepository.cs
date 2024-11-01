@@ -9,8 +9,6 @@ namespace Domain.Interfaces
 {
     public interface ICustomerRepository : IRepositoryBase<Customer>
     {
-        Customer? GetByName(string name);
-        Customer? GetByEmail(string email);
         Customer? Authenticate(string username, string password);
     }
 }

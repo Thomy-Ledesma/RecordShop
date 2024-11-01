@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,6 +14,7 @@ namespace Domain.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public List<Sale> Sales {  get; set; } = new List<Sale>();
+        public List<Sale> Sales { get; set; } = new List<Sale>();
+        public UserRole Role { get;} = UserRole.Customer;
     }
 }

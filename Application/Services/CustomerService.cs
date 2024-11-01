@@ -57,9 +57,19 @@ namespace Application.Services
 
         }
         public Customer Authenticate(CredentialsRequest credentials)
+{
+    var customer = _customerRepository.Authenticate(credentials.Username, credentials.Password);
+    if (customer != null)
+    {
+        // You may now access the customer's role here
+        return new Customer
         {
-           return _customerRepository.Authenticate(credentials.Username, credentials.Password);
-        }
+            Id = customer.Id,
+            Role = customer.Role // Ensure this is included
+        };
+    }
+    return null;
+}
 
     }
 }

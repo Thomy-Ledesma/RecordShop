@@ -8,7 +8,6 @@ namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Policy = "CustomerOnly")]
     public class RecordShopAlbums : ControllerBase
     {
         private readonly IAlbumService _albumService;
@@ -18,6 +17,7 @@ namespace RecordShop.Controllers
             _albumService = albumService;
         }
         [HttpGet("GetAll")]
+        [Authorize(Policy = "CustomerOnly")]
         public async Task<IActionResult> GetAllCustomers()
         {
             var albums = await _albumService.GetAllAlbumsAsync();

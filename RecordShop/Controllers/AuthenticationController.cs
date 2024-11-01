@@ -28,7 +28,6 @@ namespace RecordShop.Controllers
         [HttpPost("login")]
         public IActionResult Authenticate([FromBody] CredentialsRequest credentialsRequest)
         {
-            // Attempt authentication for Customer
             Customer? customer = _customerService.Authenticate(credentialsRequest);
             if (customer != null)
             {
@@ -36,7 +35,6 @@ namespace RecordShop.Controllers
                 return Ok(new { token });
             }
 
-            // Attempt authentication for Admin
             Admin? admin = _adminService.Authenticate(credentialsRequest);
             if (admin != null)
             {
@@ -49,7 +47,7 @@ namespace RecordShop.Controllers
 
         private string GenerateJwtToken(int userId, UserRole role)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_config["Authentication:SecretForKey"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Authentication:SecretForKey"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new List<Claim>
     {

@@ -24,37 +24,65 @@ namespace Application.Services
             return await _salesRepository.ListWithProductsAsync();
         }
 
-        public async Task<Sale?> GetSaleById(int id)
+        public async Task<Sale?> GetSaleWithProductsByIdAsync(int saleId)
         {
-            return await _salesRepository.GetByIdAsync(id);
+            return await _salesRepository.GetSaleWithProductsByIdAsync(saleId);
         }
 
-        public async Task<Sale> CreateSale(int customerId)
+        public async Task<Sale?> CreateSale(int customerId)
         {
+            // Check for existing sale in "InProcess" state for this customer
+            var existingSale = await _salesRepository.GetInProcessSaleByCustomerIdAsync(customerId);
+
+            if (existingSale != null)
+            {
+                return null; // Indicates that a sale already exists
+            }
+
+            // Create a new sale
             var sale = new Sale
             {
                 CustomerId = customerId,
-                Total = 0,
+                Total = 0
             };
 
-            return await _salesRepository.AddAsync(sale); // Persist the new sale
+            await _salesRepository.AddAsync(sale);
+
+            return sale;
         }
 
-        public async Task<Sale> AddAlbumToSale(int saleId, int albumId, int quantity = 1)
+        public async Task<string> AddAlbumToSale(int saleId, int albumId, int quantity = 1)
         {
-            var sale = await _salesRepository.GetByIdAsync(saleId);
-            if (sale == null) throw new Exception("Sale not found");
+            var sale = await _salesRepository.GetSaleWithProductsByIdAsync(saleId);
+
+            if (sale == null)
+            {
+                return "Sale not found.";
+            }
+
+            if (sale.SaleState == State.Done)
+            {
+                return "Cannot modify a completed sale.";
+            }
 
             var album = await _albumRepository.GetByIdAsync(albumId);
-            if (album == null) throw new Exception("Album not found");
+            if (album == null)
+            {
+                return "Album not found.";
+            }
+            
 
+            // Check if the album is already in the sale
             var saleAlbum = sale.SaleAlbums.FirstOrDefault(sa => sa.AlbumId == albumId);
+
             if (saleAlbum != null)
             {
+                // Album already exists in the sale; increment the quantity
                 saleAlbum.Quantity += quantity;
             }
             else
             {
+                // Add new album to the sale
                 sale.SaleAlbums.Add(new SaleAlbum
                 {
                     SaleId = saleId,
@@ -63,9 +91,46 @@ namespace Application.Services
                 });
             }
 
-            sale.Total += album.Price * quantity;
+            // Update the total price of the sale
+            var AlbumToAdd = await _albumRepository.GetByIdAsync(albumId);
+            sale.Total += AlbumToAdd.Price * quantity;
+
             await _salesRepository.UpdateAsync(sale);
-            return sale;
+
+            return "Album added to sale successfully.";
+        }
+
+        public async Task<string> CloseSale(int saleId)
+        {
+            var sale = await _salesRepository.GetSaleWithProductsByIdAsync(saleId);
+
+            if (sale == null)
+            {
+                return "Sale not found";
+            }
+
+            // Check inventory for each album in the sale
+            foreach (var saleAlbum in sale.SaleAlbums)
+            {
+                var album = saleAlbum.Album;
+
+                if (album.Amount < saleAlbum.Quantity)
+                {
+                    return $"Insufficient stock for album '{album.Name}'. Available: {album.Amount}, Required: {saleAlbum.Quantity}.";
+                }
+            }
+
+            // If stock is sufficient, update album quantities
+            foreach (var saleAlbum in sale.SaleAlbums)
+            {
+                saleAlbum.Album.Amount -= saleAlbum.Quantity;
+            }
+
+            // Change sale status to Done
+            sale.SaleState = State.Done;
+            await _salesRepository.UpdateAsync(sale);
+
+            return "Sale successfully closed.";
         }
     }
     

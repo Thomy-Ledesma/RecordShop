@@ -11,7 +11,9 @@ namespace Application.Services
     {
         Task<Sale> CreateSale(int customerId);
         Task<List<Sale>> GetAllSales();
-        Task<Sale?> GetSaleById(int id);
-        Task<Sale?> AddAlbumToSale(int saleId, int albumId, int quantity);
+        Task<Sale?> GetSaleWithProductsByIdAsync(int saleId);
+        Task<string> AddAlbumToSale(int saleId, int albumId, int quantity);
+
+        Task<string> CloseSale(int saleId);
     }
 }

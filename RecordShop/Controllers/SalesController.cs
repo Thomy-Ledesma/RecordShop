@@ -21,6 +21,12 @@ namespace RecordShop.Controllers
         public async Task<IActionResult> OpenSale(int customerId)
         {
             var sale = await _salesService.CreateSale(customerId);
+
+            if (sale == null)
+            {
+                return BadRequest("An open sale already exists for this customer.");
+            }
+
             return Ok(new { message = "Sale created!", saleId = sale.Id });
         }
 
@@ -28,12 +34,54 @@ namespace RecordShop.Controllers
         [HttpPut("AddToCart")]
         public async Task<IActionResult> AddToCart(int saleId, int albumId, int quantity)
         {
-            var album = await _albumService.GetAlbumById(albumId);
-            if (album == null)
-                return NotFound("Album not found");
+            var result = await _salesService.AddAlbumToSale(saleId, albumId, quantity);
 
-            await _salesService.AddAlbumToSale(saleId, albumId, quantity);
-            return Ok("Album added to sale with quantity updated.");
+            if (result == "Sale not found.")
+            {
+                return NotFound(result);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("GetSaleById/{saleId}")]
+        public async Task<IActionResult> GetSaleById(int saleId)
+        {
+            var sale = await _salesService.GetSaleWithProductsByIdAsync(saleId);
+            if (sale == null)
+            {
+                return NotFound("Sale not found");
+            }
+
+            var result = new
+            {
+                sale.Id,
+                sale.CustomerId,
+                sale.Total,
+                sale.SaleState,
+                Albums = sale.SaleAlbums.Select(sa => new
+                {
+                    sa.Album.Id,
+                    sa.Album.Name,
+                    sa.Album.Price,
+                    sa.Quantity
+                })
+            };
+
+            return Ok(result);
+        }
+
+        [HttpPut("CloseSale")]
+        public async Task<IActionResult> CloseSale(int saleId)
+        {
+            var result = await _salesService.CloseSale(saleId);
+
+            if (result.StartsWith("Insufficient stock"))
+            {
+                return BadRequest(result);
+            }
+
+            return Ok(result);
         }
 
         // Endpoint to get all sales with albums and their quantities

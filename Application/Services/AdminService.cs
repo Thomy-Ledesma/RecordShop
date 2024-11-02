@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Application.DTOs;
+﻿using Application.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
 {
@@ -34,14 +24,21 @@ namespace Application.Services
             return await _adminRepository.GetByIdAsync(id);
         }
 
-        public async Task<Admin> AddAdmin(AddAdminRequest dto)
+        public async Task<Admin?> AddAdmin(AddAdminRequest dto)
         {
+            var existingAdmin = await _adminRepository.ListAsync();
+            if (existingAdmin.Any(c => c.Username == dto.Username || c.Email == dto.Email))
+            {
+                return null;
+            }
+
             var admin = new Admin
             {
                 Email = dto.Email,
                 Username = dto.Username,
                 Password = dto.Password,
             };
+
             return await _adminRepository.AddAsync(admin);
         }
         public async Task UpdateAdmin(int id, AddAdminRequest request)
@@ -50,7 +47,6 @@ namespace Application.Services
 
             admin.Username = request.Username;
             admin.Password = request.Password;
-            admin.Email = request.Email;
 
             await _adminRepository.UpdateAsync(admin);
 

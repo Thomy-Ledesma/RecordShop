@@ -1,11 +1,6 @@
 ﻿using Application.DTOs;
 using Domain.Entities;
 using Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
 {
@@ -29,14 +24,21 @@ namespace Application.Services
             return await _customerRepository.GetByIdAsync(id);
         }
 
-        public async Task<Customer> AddCustomer(AddCustomerRequest dto)
+        public async Task<Customer?> AddCustomer(AddCustomerRequest dto)
         {
+            var existingCustomer = await _customerRepository.ListAsync();
+            if (existingCustomer.Any(c => c.Username == dto.Username || c.Email == dto.Email))
+            {
+                return null;
+            }
+
             var customer = new Customer
             {
                 Email = dto.Email,
                 Username = dto.Username,
                 Password = dto.Password,
             };
+
             return await _customerRepository.AddAsync(customer);
         }
         public async Task UpdateCustomer(int id, AddCustomerRequest request)
@@ -44,8 +46,7 @@ namespace Application.Services
             var customer = await _customerRepository.GetByIdAsync(id);
 
             customer.Username = request.Username;
-            customer.Password = request.Password;   
-            customer.Email = request.Email;
+            customer.Password = request.Password;
 
             await _customerRepository.UpdateAsync(customer);
 

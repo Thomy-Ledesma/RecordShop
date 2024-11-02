@@ -1,9 +1,4 @@
 ﻿using Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
 {
@@ -11,9 +6,12 @@ namespace Application.Services
     {
         Task<Sale> CreateSale(int customerId);
         Task<List<Sale>> GetAllSales();
+        Task<Sale?> GetInProcessSale(int customerId);
         Task<Sale?> GetSaleWithProductsByIdAsync(int saleId);
         Task<string> AddAlbumToSale(int saleId, int albumId, int quantity);
+        Task<string> RemoveAlbumFromSale(int saleId, int albumId, int quantity);
+        Task<string> CloseSale(int customerId);
 
-        Task<string> CloseSale(int saleId);
+        Task<string> DeleteSale(int saleId);
     }
 }

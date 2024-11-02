@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Application.Services;
-using Domain.Entities;
 using Application.DTOs;
 using Microsoft.AspNetCore.Authorization;
 
@@ -8,7 +7,7 @@ namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize] despues
+    [Authorize(Roles = "Admin")]
     public class AdminsController : ControllerBase
     {
         private readonly IAdminService _adminService;
@@ -19,13 +18,13 @@ namespace RecordShop.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<IActionResult> GetAllCustomers()
+        public async Task<IActionResult> GetAllAdmins()
         {
             var admins = await _adminService.GetAllAdminsAsync();
             return Ok(admins);
         }
 
-        [HttpGet("{Id}")]
+        [HttpGet("GetById/{Id}")]
 
         public async Task<IActionResult> GetCustomerById(int Id)
         {
@@ -37,15 +36,20 @@ namespace RecordShop.Controllers
             return Ok(admin);
         }
 
-        [HttpPost("AddAdmin")]
-
-        public async Task<IActionResult> AddAdmin(AddAdminRequest request)
+        [HttpPost("Add")]
+        public async Task<IActionResult> AddCustomer([FromBody] AddAdminRequest request)
         {
             var admin = await _adminService.AddAdmin(request);
+
+            if (admin == null)
+            {
+                return BadRequest("Username or email is already in use.");
+            }
+
             return Ok(admin);
         }
 
-        [HttpPut("UpdateAdmin")]
+        [HttpPut("Update")]
         public async Task<IActionResult> UpdateAdmin(int id, [FromBody] AddAdminRequest request)
         {
             var admin = await _adminService.GetAdminById(id);
@@ -59,8 +63,8 @@ namespace RecordShop.Controllers
             return Ok("Customer updated");
         }
 
-        [HttpDelete("DeleteCustomer")]
-        public async Task<IActionResult> DeleteCustomer(int id)
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> DeleteAdmin(int id)
         {
             var admin = await _adminService.GetAdminById(id);
             if (admin == null)

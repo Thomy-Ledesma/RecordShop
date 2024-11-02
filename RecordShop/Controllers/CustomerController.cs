@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Application.Services;
-using Domain.Entities;
 using Application.DTOs;
 using Microsoft.AspNetCore.Authorization;
 
@@ -18,13 +17,15 @@ namespace RecordShop.Controllers
             _customerService = customerService;
         }
         [HttpGet("GetAll")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllCustomers()
         {
             var customers = await _customerService.GetAllCustomersAsync();
             return Ok(customers);
         }
 
-        [HttpGet("{Id}")]
+        [HttpGet("GetById/{Id}")]
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> GetCustomerById(int Id)
         {
@@ -36,15 +37,22 @@ namespace RecordShop.Controllers
             return Ok(customer);
         }
 
-        [HttpPost("AddCustomer")]
-
-        public async Task<IActionResult> AddCustomer(AddCustomerRequest request)
+        [HttpPost("Add")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> AddCustomer([FromBody] AddCustomerRequest request)
         {
             var customer = await _customerService.AddCustomer(request);
+
+            if (customer == null)
+            {
+                return BadRequest("Username or email is already in use.");
+            }
+
             return Ok(customer);
         }
 
-        [HttpPut("UpdateCustomer")]
+        [HttpPut("Update")]
+        [Authorize(Roles = "Customer")]
         public async Task<IActionResult> UpdateCustomer(int  id, [FromBody] AddCustomerRequest request)
         {
             var customer = await _customerService.GetCustomerById(id);
@@ -58,7 +66,8 @@ namespace RecordShop.Controllers
             return Ok("Customer updated");
         }
 
-        [HttpDelete("DeleteCustomer")]
+        [HttpDelete("Delete")]
+        [Authorize ]
         public async Task<IActionResult> DeleteCustomer(int id)
         {
             var customer = await _customerService.GetCustomerById(id);

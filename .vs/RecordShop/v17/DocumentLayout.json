@@ -1,134 +1,154 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\",
+  "WorkspaceRootPath": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\controllers\\recordshopalbums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\recordshopalbums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\entities\\salealbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\salealbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\recordshop\\migrations\\20241101202250_authenticationroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\migrations\\20241101202250_authenticationroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\migrations\\20241102025726_addtocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\migrations\\20241102025726_addtocustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\controllers\\recordshopalbums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\controllers\\recordshopalbums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\entities\\salealbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\salealbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\isalesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\migrations\\20241101202250_authenticationroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\migrations\\20241101202250_authenticationroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{593D7969-611F-4462-A937-70FA3856A38B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\domain\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\domain\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B0A891F-D758-4556-9962-8B271E958721}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\isalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\isalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\isalesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\dtos\\addadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\dtos\\addadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\dtos\\addadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\operador\\desktop\\facu\\programacion-3\\recordshop\\application\\dtos\\addcustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\application\\dtos\\addcustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FC4693B-5D96-4B45-AA9A-7E519B05833E}|Application\\Application.csproj|solutionrelative:application\\dtos\\addcustomerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|c:\\users\\augus\\desktop\\tpi_p3_recursado\\recordshop\\recordshop\\migrations\\20241101224056_databaseissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4647C44-AB48-4650-A81D-0FCC4ADD361E}|RecordShop\\RecordShop.csproj|solutionrelative:recordshop\\migrations\\20241101224056_databaseissue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,154 +166,213 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
+              "Title": "20241102025726_AddToCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241102025726_AddToCustomer.cs",
+              "RelativeDocumentMoniker": "RecordShop\\Migrations\\20241102025726_AddToCustomer.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241102025726_AddToCustomer.cs",
+              "RelativeToolTip": "RecordShop\\Migrations\\20241102025726_AddToCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:57:27.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Application\\Services\\CustomerService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowEQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:53:33.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Application\\Services\\PasswordService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:52:27.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "Domain\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:47:12.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:47:02.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "RecordShop\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "RecordShop\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDIAAAAnAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwB4AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T18:44:25.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\appsettings.json",
               "RelativeDocumentMoniker": "RecordShop\\appsettings.json",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\appsettings.json",
               "RelativeToolTip": "RecordShop\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-01T20:42:59.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T20:42:59.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Program.cs",
               "RelativeDocumentMoniker": "RecordShop\\Program.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Program.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Program.cs",
               "RelativeToolTip": "RecordShop\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAABOAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAD0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T18:47:28.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 36,
               "Title": "20241101224056_DatabaseIssue.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
               "RelativeDocumentMoniker": "RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
               "RelativeToolTip": "RecordShop\\Migrations\\20241101224056_DatabaseIssue.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T22:40:56.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T22:40:56.576Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\CustomerRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T18:50:56.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ISalesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\ISalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\ISalesRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ISalesRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\ISalesRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\ISalesRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\ISalesRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T04:10:18.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T04:10:18.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "SaleAlbum.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\SaleAlbum.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\SaleAlbum.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\SaleAlbum.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\SaleAlbum.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\SaleAlbum.cs",
               "RelativeToolTip": "Domain\\Entities\\SaleAlbum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:58:28.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T19:58:28.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "RecordShopAlbums.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\RecordShopAlbums.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\RecordShopAlbums.cs",
               "RelativeDocumentMoniker": "RecordShop\\Controllers\\RecordShopAlbums.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\RecordShopAlbums.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\RecordShopAlbums.cs",
               "RelativeToolTip": "RecordShop\\Controllers\\RecordShopAlbums.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T19:56:50.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "RecordShop\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "RecordShop\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAbAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T19:28:01.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "AdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\AdminRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AdminRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\AdminRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\AdminRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:15:33.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T19:15:33.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "AlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\AlbumRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AlbumRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\AlbumRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\AlbumRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\AlbumRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:06:30.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T19:06:30.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "IAlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\IAlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\IAlbumService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\IAlbumService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\IAlbumService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\IAlbumService.cs",
               "RelativeToolTip": "Application\\Services\\IAlbumService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "20241101202250_AuthenticationRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
               "RelativeDocumentMoniker": "RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
               "RelativeToolTip": "RecordShop\\Migrations\\20241101202250_AuthenticationRoles.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "EfRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\EfRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EfRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\EfRepository.cs",
               "RelativeToolTip": "Infrastructure\\EfRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -325,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IRepositoryBase.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IRepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -337,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "AddCustomerRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\DTOs\\AddCustomerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\DTOs\\AddCustomerRequest.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\AddCustomerRequest.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\DTOs\\AddCustomerRequest.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\DTOs\\AddCustomerRequest.cs",
               "RelativeToolTip": "Application\\DTOs\\AddCustomerRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "AddAdminRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\DTOs\\AddAdminRequest.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\DTOs\\AddAdminRequest.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\AddAdminRequest.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\DTOs\\AddAdminRequest.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\DTOs\\AddAdminRequest.cs",
               "RelativeToolTip": "Application\\DTOs\\AddAdminRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "ICustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\ICustomerService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ICustomerService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\ICustomerService.cs",
               "RelativeToolTip": "Application\\Services\\ICustomerService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "IAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\IAdminService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\IAdminService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\IAdminService.cs",
               "RelativeToolTip": "Application\\Services\\IAdminService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -385,47 +464,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AdminService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\AdminService.cs",
               "RelativeToolTip": "Application\\Services\\AdminService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:30:49.394Z"
+              "WhenOpened": "2024-11-01T19:30:49.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "AlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\AlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\AlbumService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AlbumService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\AlbumService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\AlbumService.cs",
               "RelativeToolTip": "Application\\Services\\AlbumService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:21:43.344Z"
+              "WhenOpened": "2024-11-01T19:21:43.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
               "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\ApplicationContext.cs",
               "RelativeToolTip": "Infrastructure\\ApplicationContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAxwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:21:08.03Z"
+              "WhenOpened": "2024-11-01T19:21:08.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "IAlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IAlbumRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IAlbumRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IAlbumRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IAlbumRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -433,11 +515,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "IAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IAdminRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IAdminRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\IAdminRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IAdminRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,33 +529,35 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Interfaces\\ICustomerRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:13:47.238Z"
+              "WhenOpened": "2024-11-01T19:13:47.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "Album.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\Album.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Album.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Album.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\Album.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Album.cs",
               "RelativeToolTip": "Domain\\Entities\\Album.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:10:50.374Z"
+              "WhenOpened": "2024-11-01T19:10:50.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "SalesService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\SalesService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\SalesService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\SalesService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\SalesService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\SalesService.cs",
               "RelativeToolTip": "Application\\Services\\SalesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -481,11 +565,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\RepositoryBase.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositoryBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -493,23 +577,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Enums\\State.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Enums\\State.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\State.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Enums\\State.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Enums\\State.cs",
               "RelativeToolTip": "Domain\\Enums\\State.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:04:28.871Z"
+              "WhenOpened": "2024-11-01T19:04:28.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\Sale.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Sale.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Sale.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Domain\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Domain\\Entities\\Sale.cs",
               "RelativeToolTip": "Domain\\Entities\\Sale.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -517,11 +602,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "SalesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\SalesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\SalesRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SalesRepository.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Infrastructure\\Repositories\\SalesRepository.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Infrastructure\\Repositories\\SalesRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\SalesRepository.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -529,11 +614,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "ISalesService.cs",
-              "DocumentMoniker": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\ISalesService.cs",
+              "DocumentMoniker": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\ISalesService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ISalesService.cs",
-              "ToolTip": "C:\\Users\\Operador\\Desktop\\facu\\Programacion-3\\RecordShop\\Application\\Services\\ISalesService.cs",
+              "ToolTip": "C:\\Users\\augus\\Desktop\\TPI_P3_Recursado\\RecordShop\\Application\\Services\\ISalesService.cs",
               "RelativeToolTip": "Application\\Services\\ISalesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

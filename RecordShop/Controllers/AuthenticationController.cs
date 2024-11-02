@@ -52,7 +52,7 @@ namespace RecordShop.Controllers
             var claims = new List<Claim>
     {
         new Claim("sub", userId.ToString()),
-        new Claim("role", ((int)role).ToString()) // Store role as an integer
+        new Claim("role", (role).ToString()) // Store role as an integer
     };
 
             var jwtToken = new JwtSecurityToken(

@@ -17,7 +17,7 @@ namespace RecordShop.Controllers
             _albumService = albumService;
         }
         [HttpGet("GetAll")]
-        [Authorize(Policy = "CustomerOnly")]
+        [Authorize(Roles= "Customer")]
         public async Task<IActionResult> GetAllCustomers()
         {
             var albums = await _albumService.GetAllAlbumsAsync();

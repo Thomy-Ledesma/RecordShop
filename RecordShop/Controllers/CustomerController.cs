@@ -8,7 +8,6 @@ namespace RecordShop.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize] despues
     public class RecordShopCustomers : ControllerBase
     {
         private readonly ICustomerService _customerService;
@@ -18,6 +17,7 @@ namespace RecordShop.Controllers
             _customerService = customerService;
         }
         [HttpGet("GetAll")]
+        [Authorize(Roles = "Customer")]
         public async Task<IActionResult> GetAllCustomers()
         {
             var customers = await _customerService.GetAllCustomersAsync();
@@ -37,7 +37,7 @@ namespace RecordShop.Controllers
         }
 
         [HttpPost("AddCustomer")]
-
+       
         public async Task<IActionResult> AddCustomer(AddCustomerRequest request)
         {
             var customer = await _customerService.AddCustomer(request);

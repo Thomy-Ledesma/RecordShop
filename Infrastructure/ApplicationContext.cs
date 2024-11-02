@@ -1,5 +1,7 @@
 ﻿using Domain.Entities;
+using Domain.Enums;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +36,10 @@ namespace Infrastructure
                 .HasOne(sa => sa.Album)
                 .WithMany(a => a.SaleAlbums)
                 .HasForeignKey(sa => sa.AlbumId);
+
+            modelBuilder.Entity<Customer>()
+                .Property(u => u.Role)
+                .HasConversion(new EnumToStringConverter<UserRole>());
         }
     }
 }

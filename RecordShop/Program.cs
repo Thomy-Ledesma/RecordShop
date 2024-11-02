@@ -57,8 +57,8 @@ builder.Services.AddAuthentication("Bearer")
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("CustomerOnly", policy => policy.RequireClaim("role", ((int)UserRole.Customer).ToString()));
-    options.AddPolicy("AdminOnly", policy => policy.RequireClaim("role", ((int)UserRole.Admin).ToString()));
+    options.AddPolicy("Customer", policy => policy.RequireClaim("role", (UserRole.Customer).ToString()));
+    options.AddPolicy("Admin", policy => policy.RequireClaim("role", (UserRole.Admin).ToString()));
 });
 
 builder.Services.AddScoped(typeof(IRepositoryBase<>), typeof(EfRepository<>));

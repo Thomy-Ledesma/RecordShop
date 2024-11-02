@@ -40,6 +40,10 @@ namespace Infrastructure
             modelBuilder.Entity<Customer>()
                 .Property(u => u.Role)
                 .HasConversion(new EnumToStringConverter<UserRole>());
+
+            modelBuilder.Entity<Admin>()
+                .Property(u => u.Role)
+                .HasConversion(new EnumToStringConverter<UserRole>());
         }
     }
 }

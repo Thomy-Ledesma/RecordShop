@@ -63,7 +63,17 @@ namespace Application.Services
         }
         public Admin Authenticate(CredentialsRequest credentials)
         {
-            return _adminRepository.Authenticate(credentials.Username, credentials.Password);
+            var admin = _adminRepository.Authenticate(credentials.Username, credentials.Password);
+            if (admin != null)
+            {
+                // You may now access the customer's role here
+                return new Admin
+                {
+                    Id = admin.Id,
+                    Role = admin.Role // Ensure this is included
+                };
+            }
+            return null;
         }
 
     }

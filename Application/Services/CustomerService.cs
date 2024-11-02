@@ -66,6 +66,7 @@ namespace Application.Services
         }
         public Customer Authenticate(CredentialsRequest credentials)
         {
+<<<<<<< Updated upstream
             var customer = _customerRepository.(credentials.Username);
             if (customer == null)
             {
@@ -77,6 +78,19 @@ namespace Application.Services
 
             // Verifica si la contraseña es correcta
             return result == PasswordVerificationResult.Success ? customer : null;
+=======
+            var customer = _customerRepository.Authenticate(credentials.Username, credentials.Password);
+            if (customer != null)
+            {
+                // You may now access the customer's role here
+                return new Customer
+                {
+                    Id = customer.Id,
+                    Role = customer.Role // Ensure this is included
+                };
+            }
+                    return null;
+>>>>>>> Stashed changes
         }
 
     }

@@ -17,8 +17,13 @@ namespace RecordShop.Controllers
             _albumService = albumService;
         }
         [HttpGet("GetAll")]
+<<<<<<< Updated upstream
         [Authorize(Roles= "Customer")]
         public async Task<IActionResult> GetAllCustomers()
+=======
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetAllAlbums()
+>>>>>>> Stashed changes
         {
             var albums = await _albumService.GetAllAlbumsAsync();
             return Ok(albums);
